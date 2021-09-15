@@ -110,10 +110,10 @@ function Baby(name, age, favToy) {
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. when in global scope, this equates to the window, or window binding
+  2. implicit binding, when using dot notation, this refers to the object before the dot
+  3. new binding, when creating a new instance of the item created, when using new this refers to the instance
+  4. when using call or apply, this is explicitly defined and rightfully called explicit binding
 */
 
 
