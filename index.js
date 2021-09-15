@@ -97,6 +97,7 @@ function Car(model, milesPerGallon) {
         + Should return a string "Playing with x", x being the favorite toy.
 */
 function Baby(name, age, favToy) {
+ Baby.prototype = Object.create(Person.prototype)
  this.name = name;
  this.age = age;
  this.favoriteToy = favToy;
